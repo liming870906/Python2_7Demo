@@ -1,0 +1,30 @@
+
+
+
+#String api
+
+print("my title hello world！".capitalize())
+print("title".center(50,'-'))
+print("my title is hello !".count('l'))
+print("我是帅帅的男孩儿".encode('utf-8',errors='strict'))
+print("my title is hello !".endswith("!"))
+print('01\t012\t0123\t01234'.expandtabs(4))
+print("my title is hello !".find("i"))
+print("my title is {name} !".format(name='kitty'))
+print("my title is {name} is {age}!".format_map({'name':'kitty','age':33}))
+print("my title is hello !".index("i"))
+print("明".isalnum())
+print("abc1".isalpha())
+print("9999999999999999".isdigit())
+print("123456".isidentifier())
+print("www.cn.bing".islower())
+print("I Am L M".istitle())
+print("".join(['111','abc','####']))
+print("I Am L M".ljust(20))
+print("I Am L M".lower())
+print("        I Am L M".lstrip())
+print("my title hello world！".replace('my','you'))
+print("my title hello world！".replace('l','k',3))
+print('1,2,3'.split(','))
+print('1,2,3'.split(',', maxsplit=1))
+print('1,2,,3,'.split(','))
