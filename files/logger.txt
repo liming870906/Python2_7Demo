@@ -1,0 +1,10 @@
+2018/11/08 10:21:00 is logger -> Application is id : 0 
+2018/11/08 10:21:05 is logger -> Application is id : 1 
+2018/11/08 10:21:10 is logger -> Application is id : 2 
+2018/11/08 10:21:15 is logger -> Application is id : 3 
+2018/11/08 10:21:20 is logger -> Application is id : 4 
+2018/11/08 10:21:25 is logger -> Application is id : 5 
+2018/11/08 10:21:30 is logger -> Application is id : 6 
+2018/11/08 10:21:35 is logger -> Application is id : 7 
+2018/11/08 10:21:40 is logger -> Application is id : 8 
+2018/11/08 10:21:45 is logger -> Application is id : 9 
