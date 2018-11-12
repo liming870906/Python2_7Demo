@@ -114,3 +114,42 @@ abc('hello', 10, "World", Age=10, Name='benben')
 def bcd(): return 'abc',11,22,[1,2,3,4]
 
 print(bcd())
+
+out_p = 20
+
+def changeIn():
+    global out_p
+    print(out_p)
+    out_p = 30
+    in_p = 50
+    def inner():
+        nonlocal in_p
+        print(in_p)
+        in_p = 40
+        print(in_p)
+    inner()
+
+changeIn()
+print(out_p)
+
+def insertList(*args):
+    print(args)
+
+insertList(*[1,2,3,4],*[33,44,55])
+
+def insertDist(**kwargs):
+    print(kwargs)
+
+
+insertDist(**{'name':'libenben','age':18,'set':'woman'})
+
+
+# 高级函数
+
+def square(number):
+    return number * number
+
+def foo(number1, number2, square_function):
+    return square_function(number1) + square_function(number2)
+
+print(foo(5,2,square))
