@@ -1,14 +1,33 @@
 # Python 模块
 """
+hashlib
+加密
+
+"""
+
+import hashlib
+
+m = hashlib.md5()
+
+m.update('abcedfg'.encode('utf-8'))
+print(m.hexdigest())
+
+s = hashlib.sha3_256()
+s.update('abcedfg'.encode('utf-8'))
+print(s.hexdigest())
+print("分隔符".center(100,'-'))
+
+"""
 sys 模块
     Python解释器进行交互。
 """
 import sys
 
-print(sys.argv)
-if sys.argv[1] == 'post':
-    print('上传')
-    
+# print(sys.argv)
+# if sys.argv[1] == 'post':
+#     print('上传')
+print(sys.path)
+print("分隔符".center(100,'-'))
 
 """
 os模块
