@@ -1,0 +1,12 @@
+[DEFAULT]
+city = beijing
+address = shanghai
+date = 2018-12-03
+test = beef
+
+[com.lm.test]
+user = James
+
+[com.lm.test_11]
+host_address = http://www.baidu.com
+
